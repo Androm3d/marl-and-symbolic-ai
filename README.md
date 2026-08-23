@@ -33,35 +33,7 @@ This repository is organized into three standalone, fully documented computation
 
 ---
 
-## 📐 Algorithmic Overview & Mathematical Foundations
-
-### 1. Multi-Agent RL & Solution Concepts (`POEGMA-SID/`)
-In partially observable multi-agent environments, agents learn joint policies $a = (a_1, \dots, a_N) \in A$. Joint Action Learning updates $Q$-values over joint action space with specialized equilibrium selection:
-- **Nash Equilibrium**: $R_i(a_i^*, a_{-i}^*) \ge R_i(a_i, a_{-i}^*)$
-- **Pareto Efficiency**: No agent can be made better off without making another worse off.
-- **Minimax**: Maximizes worst-case payoff under adversarial uncertainty: $\max_{a_i} \min_{a_{-i}} R_i(a_i, a_{-i})$.
-
-### 2. Symbolic BDI Agent Architecture (`agentspeak_symbolic_ctf/`)
-Implements dynamic belief updating, desire generation, and intention execution in **AgentSpeak (Jason)**. Agents dynamically assign roles (Flag Runner, Escort, Defender) and pass message primitives (`.send`) to maintain shared situational awareness.
-
----
-
-## 🛠️ Quickstart Guide
-
-### 1. Run MARL POEGMA Training
-```bash
-cd POEGMA-SID
-pip install -r requirements.txt
-python main.py
-```
-
-### 2. Explore Gridworld RL Benchmarks
-```bash
-cd rl_cliffwalking_qlearning
-python3 generate_rl_plots.py
-```
-
----
-
-## 👤 Author
-* **Marcel Alabart Benoit** ([@Androm3d](https://github.com/Androm3d)) – *Specialization in CS & AI, UPC-FIB*
+## 👥 Contributors & Credits
+* **Marcel Alabart Benoit** ([@Androm3d](https://github.com/Androm3d))
+* **Víctor Ramírez Arimaha** ([@Edexel2vic](https://github.com/Edexel2vic))
+* **Adrià Cebrián Ruiz** ([@pacopua](https://github.com/pacopua))
