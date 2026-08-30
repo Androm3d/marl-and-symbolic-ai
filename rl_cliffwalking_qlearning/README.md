@@ -42,15 +42,15 @@ $$V(s) \leftarrow \max_{a} \sum_{s', r} p(s', r \mid s, a) \left[ r + \gamma V(s
 ## 👥 Authors & Collaborators
 
 * **Marcel Alabart Benoit** ([@Androm3d](https://github.com/Androm3d))
-* **Edgar** ([@Edexel2vic](https://github.com/Edexel2vic))
-* **Pau** ([@pacopua](https://github.com/pacopua))
+* **Víctor Ramírez Arimaha** ([@Edexel2vic](https://github.com/Edexel2vic))
+* **Adrià Cebrián Ruiz** ([@pacopua](https://github.com/pacopua))
 
 ---
 
 ## 📂 Source Code & Scripts
 
-* `q_learning.py`: TD(0) Off-Policy Q-Learning implementation.
-* `sarsa.py`: On-Policy SARSA implementation.
+* `qlearning.py` / `q_learning.py`: TD(0) Off-Policy Q-Learning implementation.
 * `value_iteration.py`: Bellman dynamic programming backup.
-* `cliff_environment.py`: Gym-style 4x12 gridworld environment.
-* `generate_rl_plots.py`: Verification and high-resolution figure generator.
+* `reinforce.py`: Policy Gradient REINFORCE baseline.
+* `ModelBased/` & `QLearning/`: Specialized parameter grid search suites.
+* `figures/`: High-resolution continuous potential gradient heatmaps and convergence curves.

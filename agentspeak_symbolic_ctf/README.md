@@ -36,8 +36,8 @@ Each agent executes an asynchronous BDI deliberation cycle:
 ## 👥 Authors & Collaborators
 
 * **Marcel Alabart Benoit** ([@Androm3d](https://github.com/Androm3d))
-* **Edgar** ([@Edexel2vic](https://github.com/Edexel2vic))
-* **Pau** ([@pacopua](https://github.com/pacopua))
+* **Víctor Ramírez Arimaha** ([@Edexel2vic](https://github.com/Edexel2vic))
+* **Adrià Cebrián Ruiz** ([@pacopua](https://github.com/pacopua))
 
 ---
 
@@ -48,5 +48,4 @@ Each agent executes an asynchronous BDI deliberation cycle:
   * `attacker.asl`: Fast pathfinding to enemy flag and dynamic retreat routes.
   * `defender.asl`: Base defense and intercept trajectories.
   * `scout.asl`: High-speed terrain scanning and hostile tracking.
-* `environment/`: PyGomas environment bridge and communication broker.
 * `run_simulation.py`: Entrypoint for launching multi-agent battles.
