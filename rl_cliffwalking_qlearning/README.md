@@ -1,9 +1,10 @@
 # 🧗 Temporal Difference RL: CliffWalking Benchmark (Q-Learning vs. SARSA)
 
-A comprehensive reinforcement learning suite benchmarking **Temporal Difference (TD) learning algorithms** (Off-Policy Q-Learning, On-Policy SARSA, and Dynamic Programming Value Iteration) on the classic **CliffWalking** grid environment. Developed for the *Distributed Intelligent Systems (SID)* curriculum at **UPC-FIB**.
+A comprehensive reinforcement learning suite benchmarking **Temporal Difference (TD) learning algorithms** (Off-Policy Q-Learning, On-Policy SARSA, and Dynamic Programming Value Iteration) on the classic **CliffWalking** grid environment. Developed for the *Distributed Intelligent Systems (SID)* curriculum at **UPC-FIB** (*Awarded Highest Honors / Matrícula de Honor*).
 
 [![Python 3.10+](https://img.shields.io/badge/Language-Python%203.10%2B-blue.svg?logo=python)](https://www.python.org/)
 [![Reinforcement Learning](https://img.shields.io/badge/Domain-Reinforcement%20Learning-green.svg)](https://spinningup.openai.com/)
+[![Highest Honors](https://img.shields.io/badge/Academic-Matr%C3%ADcula%20de%20Honor-gold.svg)](https://www.fib.upc.edu/)
 
 ---
 
@@ -35,6 +36,14 @@ $$V(s) \leftarrow \max_{a} \sum_{s', r} p(s', r \mid s, a) \left[ r + \gamma V(s
 ## 💡 The CliffWalking Paradox: Safe vs. Optimal Path
 * **Q-Learning (Optimal Path)**: Learns the shortest trajectory along the cliff boundary ($R = -13$). However, during $\epsilon$-greedy exploration, random exploratory actions frequently trigger the $-100$ cliff penalty.
 * **SARSA (Safe Path)**: Takes the risk-averse upper route ($R = -17$). Because it accounts for exploratory mistakes ($a_{t+1}$ sampled from $\pi_\epsilon$), it achieves superior average cumulative rewards during training.
+
+---
+
+## 👥 Authors & Collaborators
+
+* **Marcel Alabart Benoit** ([@Androm3d](https://github.com/Androm3d))
+* **Edgar** ([@Edexel2vic](https://github.com/Edexel2vic))
+* **Pau** ([@pacopua](https://github.com/pacopua))
 
 ---
 
